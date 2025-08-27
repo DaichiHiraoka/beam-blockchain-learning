@@ -15,7 +15,7 @@
             pkgs.erlang pkgs.elixir pkgs.rebar3
             pkgs.rustc pkgs.cargo pkgs.rustfmt pkgs.clippy
             pkgs.gcc pkgs.openssl pkgs.libsodium pkgs.protobuf
-            pkks.python3 or pkgs.python3
+            pkgs.python3
             pkgs.git pkgs.curl pkgs.jq
           ];
           shellHook = ''
